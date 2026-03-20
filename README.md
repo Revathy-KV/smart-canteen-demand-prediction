@@ -46,18 +46,18 @@ CSV Dataset → MongoDB → Python → Machine Learning Model → Predictions �
 
 ---
 
-## ⚙️ How to Run
+## How to Run
 
-### 1️⃣ Start MongoDB
+### 1️ Start MongoDB
 
 Run:
 mongod
 
-### 2️⃣ Import Dataset into MongoDB
+### 2️ Import Dataset into MongoDB
 
 mongoimport --db smart_canteen_ml --collection canteen_sales --type csv --headerline --file "smart_canteen_dataset.csv"
 
-### 3️⃣ Run Python Program
+### 3️ Run Python Program
 
 python miniproject.py
 
